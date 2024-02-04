@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import FoodData from './FoodData.Jsx'
-import './foods.css'
-import './button.css'
 import './navbar.css'
+import './button.css'
+import './foods.css'
 
 
 
