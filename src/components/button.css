@@ -1,0 +1,26 @@
+.btn-container{
+    background-color: rgb(46, 45, 45);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:80px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+.btn-container button{
+    margin-left: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-container button:hover {
+    opacity: 0.5;
+}
+
+
+@media (max-width:390px) {
+    .btn-container button{
+        margin-left: 10px;
+       
+    }
+}
